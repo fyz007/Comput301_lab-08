@@ -8,9 +8,11 @@
   - The starter code provided would feel familiar, as it is the walkthrough code for Lab 6
 
 2. <ins>Confirm continuous integration (CI) is working</ins>
+- Go to your forked repository and click on the `Actions` tab
+  - Allow GitHub Actions to run on your fork by clicking “I understand my workflows, go ahead and enable them.”
 - Make a small change locally (i.e., add a comment, add a newline, etc.)
 - Add, commit, and push your small change
-- Go to your forked repository and click on the `Actions` tab
+- Go to your forked repository and click on the `Actions` tab again
   - You should see that your workflow is running automatically after you made the push (notice the yellow icon)
   - It will take a couple of minutes, but while you wait, you can check out the `ci.yml` file in the folder `.github/workflows` from the root directory to see how the CI workflow using GitHub Actions was implemented
 - Eventually, you will see that Gradle was able to build and pass the existing tests
